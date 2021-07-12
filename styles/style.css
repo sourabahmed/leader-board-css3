@@ -113,7 +113,7 @@ hr{
 }
 /* media query */
 /* mobile devices */
-@media only screen and (max-width:668px){}
+@media only screen and (max-width:668px){
     .players{
         grid-template-columns: repeat(1, 1fr);
     }
@@ -126,3 +126,4 @@ hr{
     .courses{
         grid-template-columns: repeat(1, 1fr);
     }
+}
