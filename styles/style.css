@@ -17,6 +17,9 @@ ul{
     display: flex;
     align-items: center;
 }
+li{
+    list-style: none;
+}
 ul a{
     text-decoration: none;
     color: white;
@@ -158,5 +161,11 @@ footer h2{
     }
     .courses{
         grid-template-columns: repeat(1, 1fr);
+    }
+    nav{
+        flex-direction: column;
+    }
+    header{
+        width: 100%;
     }
 }
